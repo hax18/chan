@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Title</title>
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <link href="assets/css/app.css" rel="stylesheet" />  
+        <link rel="stylesheet" href="assets/css/plyr.css">
+    </head>
+    <body>
+        <!-- Main -->
+        <div class="container-fluid hstack justify-content-center vh-100">
+            <div class="d-flex flex-column w-100 h-100">
+                <div class="sc-1 hstack justify-content-between">
+                    <div class="col hstack gap-2">
+                        <div class="hstack gap-3 py-1 px-3 rounded-pill">
+                            
+                            <button class="btn gap-2 d-flex rounded-pill bg-dark d-none">
+                                Account
+                                <span class="material-symbols-rounded">account_circle</span>
+                            </button>
+
+                            <button class="btn icon-sm rounded-circle bg-dark d-none">
+                                <span class="material-symbols-rounded">settings</span>
+                            </button>
+    
+    
+                            <button type="button" class="btn icon-sm rounded-circle bg-dark d-none" id="theme-switch"><i class="material-symbols-rounded">dark_mode</i></button>
+                            <div class="icon-sm rounded-circle bg-dark" id="wifiStatus"><div class="lh-0" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Online"><span class="material-symbols-rounded text-success"> wifi </span></div></div>
+        
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group" dir="ltr">
+                            <!-- <input type="search" class="form-control border-0 ps-3 bg-dark" id="sch" name="searchCh" placeholder="Search Channels" aria-label="search" aria-describedby="sch-channels"> -->
+                            <input type="search" name="searchChan" id="searchChan" class="form-control border-0 ps-3 bg-dark" placeholder="اسم القناة ...">
+                            <span class="input-group-text d-flex border-0 ps-0 bg-dark material-symbols-rounded" id="sch-channels">search </span>
+                        </div>
+                    </div>
+                    <div class="col hstack justify-content-end gap-3">
+                        <span><div class="d-grid text-start">                                
+                            <div class="hTime fw-bold fs-4" id="time"></div>
+                            <div class="t-12" id="hijriDate" dir="rtl"></div>                               
+                        </div></span>
+                        <span class="brkt"></span>
+                        <img src="assets/img/ht.png" class="logo-sm" alt="">
+                    </div>
+                </div>
+                <div class="row sc-2 rounded-2 mx-3 overflow-hidden">
+                    <div class="col hstack position-relative overflow-hidden pe-0">     
+                        <video id="player" class="video-js vjs-default-skin w-100 h-100" controls preload="auto" data-setup="{}">
+                            <source src=""  type="application/x-mpegURL"/>
+                            Your browser does not support the video tag.
+                        </video>      
+                             
+                    </div>
+                    <div class="ch-listWidth ch-list bg-black p-2 overflow-y-auto h-100" id="chList" dir="ltr">
+                        <div class="dropdown w-100">
+                            <button class="btn bg-dark hstack justify-content-center w-100 mb-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                كل القنوات
+                                <span class="material-symbols-rounded"> filter_alt </span>
+                            </button>
+                            <ul class="dropdown-menu w-100">
+                                <li><a class="dropdown-item" href="#" data-type="all">كل القنوات</a></li>
+                                <li><a class="dropdown-item" href="#" data-type="news">أخبار</a></li>
+                                <li><a class="dropdown-item" href="#" data-type="MBC">MBC</a></li>
+                                <li><a class="dropdown-item" href="#" data-type="islamic">إسلامية</a></li>
+                                <li><a class="dropdown-item" href="#" data-type="kids">أطفال</a></li>
+                                <li><a class="dropdown-item" href="#" data-type="bein">Bein Sports</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="d-grid gap-2" id="channel-container"></div>
+                        
+                    </div>
+                </div>
+                <div class="sc-3 d-flex align-items-end pb-2 justify-content-center">
+                    <span class="d-flex fs-6" dir="ltr">Made with
+                         <span class="px-1"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" id="heart"><path fill="#f05542" d="M5.301 3.002c-.889-.047-1.759.247-2.404.893-1.29 1.292-1.175 3.49.26 4.926l.515.515L8.332 14l4.659-4.664.515-.515c1.435-1.437 1.55-3.634.26-4.926-1.29-1.292-3.483-1.175-4.918.262l-.516.517-.517-.517C7.098 3.438 6.19 3.049 5.3 3.002z"></path></svg>    
+                        </span> 
+                         By <a href="https://t.me/HelpTechDz07" class="ps-1 text-decoration-none text-success" target="_blank">@HeplTech</a></span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Connection Status -->
+        <div class="position-fixed bottom-0 start-0 p-3 z-1080 opacity-100">
+            <div id="offlineToast" class="toast border-0 text-white" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-body hstack justify-content-between w-100 border-0">
+                    <div class="fs-6">
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="hstack gap-2">
+                        <strong class="fs-6">.You are currently offline</strong>
+                        <span class="material-symbols-rounded text-danger"> wifi_off </span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="onlineToast" class="toast border-0 text-white" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-body hstack justify-content-between w-100 border-0">
+                    <div class="fs-6">
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="hstack gap-2">
+                        <strong class="me-auto">.Your internet connection was restored</strong>
+                        <span class="material-symbols-rounded text-success"> wifi </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/theme.js"></script>
+        <script src="assets/js/app.js"></script>     
+        <script src="assets/js/misc.js"></script>
+        <script src="assets/js/theme.js"></script>   
+        <script src="assets/js/hijri-date.js"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.4.14/hls.min.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/videojs-contrib-quality-levels@4.0.0/dist/videojs-contrib-quality-levels.min.js"></script>
+        <script src="https://cdn.plyr.io/3.7.8/plyr.js" defer></script>
+        <script src="assets/js/mu.js"></script> 
+        <script src="assets/js/lvp.js"></script> 
+        
+        
+
+
+
+        <script>
+            // document.addEventListener('DOMContentLoaded', function () {
+            // // Get references to the div elements and the button
+            // var chList = document.getElementById('chList');
+            // var scToggle = document.getElementById('scToggle');
+
+            // // Add click event listener to the button
+            // scToggle.addEventListener('click', function () {
+            //     // Toggle the visibility of div1 and div2
+            //     chList.classList.toggle('ch-listWidth');
+            // });
+            // });
+
+        </script>
+    </body>
+</html>

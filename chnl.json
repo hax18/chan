@@ -1,176 +1,203 @@
-     [
-      {
-        "name": "العربية",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2022%2FAmjad%2Foct%2Falarabya_logo%2Foriginal%2Falarabya_logo.png%3Fheight%3Dauto%26width%3D144%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://shls-live-ak.akamaized.net/out/v1/f5f319206ed740f9a831f2097c2ead23/index_37.m3u8",
-        "type": "news"
-      },
-      {
-        "name": "العربية Business",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2022%2FAmr%2FThumps%2Funtitled0%2FLogo_Alarabia_Business_Update%2Foriginal%2FLogo_Alarabia_Business_Update.png%3Fheight%3Dauto%26width%3D144%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://alarabiya-business-ak.akamaized.net/out/v1/126027fa2f8c4d19be4551b77ec08cbb/index.m3u8?aws.manifestfilter=video_height:144-720",
-        "type": "news"
-      },
-      {
-        "name": "الحدث",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2022%2FAmr%2FThumps%2Funtitled0%2FLogoEN_alhadath%2Foriginal%2FLogoEN_alhadath.png%3Fheight%3Dauto%26width%3D144%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1280&q=75",
-        "url": "https://hadath-prod-dub-ak.akamaized.net/out/v1/0e1a306399c346faac4226aa0858f99b/index.m3u8?aws.manifestfilter=video_height:144-720",
-        "type": "news"
-      },
-      {
-        "name": "Euronews English",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2023%2FAmrAhmed%2FFeb%2Flogo_template_En%2Foriginal%2Flogo_template_En.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://shls-live-ak.akamaized.net/out/v1/115bfcde8fa342d182ef846445cdbdcf/index.m3u8?aws.manifestfilter=video_height:144-720",
-        "type": "news"
-      },
-      {
-        "name": "Euronews French",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2023%2FAmrAhmed%2FFeb%2Flogo_template_FR%2Foriginal%2Flogo_template_FR.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://shls-live-ak.akamaized.net/out/v1/302a3ad418214d3f94460738a805b930/index.m3u8?aws.manifestfilter=video_height:144-720",
-        "type": "news"
-      },
-      {
-        "name": "MBC 1",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2FWaseem%2FStories0%2Fmbc-1%2Foriginal%2Fmbc-1.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1280&q=75",
-        "url": "https://mbc1na-prod-dub-ak.akamaized.net/out/v1/84ab37e99d6e4b16b33c6600f94f6ccb/index.m3u8?aws.manifestfilter=video_height:144-720",
-        "type": "MBC"
-      },
-      {
-        "name": "MBC 5",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2FWaseem%2FStories0%2Fmbc-5%2Foriginal%2Fmbc-5.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://mbc5-prod-dub-ak.akamaized.net/out/v1/2720564b6a4641658fdfb6884b160da2/index_2.m3u8",
-        "type": "MBC"
-      },
-      {
-        "name": "MBC 4",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2FWaseem%2FStories0%2Fmbc-4%2Foriginal%2Fmbc-4.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1280&q=75",
-        "url": "https://mbc4-prod-dub-ak.akamaized.net/out/v1/c08681f81775496ab4afa2bac7ae7638/index_2.m3u8",
-        "type": "MBC"
-      },
-      {
-        "name": "MBC Drama",
-        "image": "https://shahid.mbc.net/mediaObject/Waseem/Stories0/mbc-drama-plus/original/mbc-drama-plus.png?height=auto&width=288&croppingPoint=&version=1&type=webp",
-        "url": "https://mbcplusdrama-prod-dub-ak.akamaized.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8?aws.manifestfilter=video_height:144-720",
-        "type": "MBC"
-      },
-      {
-        "name": "SpaceToon",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2FWaseem%2FStories0%2Fspacetoon%2Foriginal%2Fspacetoon.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8?aws.manifestfilter=video_height:144-720",
-        "type": "kids"
-      },
-      {
-        "name": "MBC3",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2FWaseem%2FStories0%2Fmbc-3-logo%2Foriginal%2Fmbc-3-logo.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://mbc3-eur-prod-dub-ak.akamaized.net/out/v1/fce09dd6a967431a871efb3b8dec9f82/index_2.m3u8",
-        "type": "kids"
-      },
-      {
-        "name": "Rotana Kids",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2020%2Ftaha%2Ft2020%2Flogos-rotana-2020%2Frotana-kids-logo%2Foriginal%2Frotana-kids-logo.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://rotanakids-prod-dub-ak.akamaized.net/out/v1/df6e0eb3cdc4410b98209aafc8677cef/index.m3u8?aws.manifestfilter=video_height:144-720",
-        "type": "kids"
-      },
-      {
-        "name": "GULLI BIL ARABI",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2021%2FAbd%2FJan%2Fm6-images%2FGULLI_LOGO%2Foriginal%2FGULLI_LOGO.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://gulli-bil-arabi-prod-dub-ak.akamaized.net/out/v1/5454d215afba410c90b233f400730958/index_2.m3u8",
-        "type": "kids"
-      },
-      {
-        "name": "TIJI in French",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2021%2FAbd%2FJan%2Fm6-images%2FTigi_Logo%2Foriginal%2FTigi_Logo.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://tiji-tv-prod-dub-ak.akamaized.net/out/v1/98f46736bd8c4404b67e4b7a38cc8976/index_2.m3u8",
-        "type": "kids"
-      },
-      {
-        "name": "WWE",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2023%2FAmjad%2Fjun%2Flogo_wwe%2Foriginal%2Flogo_wwe.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://cdxaws-ak.akamaized.net/v1/channel/WWE/index_hls/3.m3u8",
-        "type": "sports"
-      },
-      {
-        "name": "القرآن الكريم",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2022%2Fjan%2FQuraan_channel_logo%2Foriginal%2FQuraan_channel_logo.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://live.kwikmotion.com/ksaquranlive/ksaquran.smil/hdntl=exp=1702672891~acl=%2fksaquranlive%2fksaquran.smil%2f*~data=hdntl~hmac=47d8b00dbb83a51d6dd063206c204eb2a61327daa71418a01dccf5543db29313/ksaquran_source_chunks_dvr.m3u8",
-        "type": "islamic"
-      },
-      {
-        "name": "السنة النبوية",
-        "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2022%2Fjan%2FSunna_channel_logo%2Foriginal%2FSunna_channel_logo.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-        "url": "https://live.kwikmotion.com/ksasunnalive/ksasunna.smil/playlist_dvr.m3u8?hdnts=exp=1702586541~acl=/ksasunnalive/ksasunna.smil/*~hmac=0e6bf2e2347c5ef267902d2c397c6fcbb092a82c1c4af0f43f9d1ac1135e8831",
-        "type": "islamic"
-      },
+[
+  {
+      "name": "العربية",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2022%2FAmjad%2Foct%2Falarabya_logo%2Foriginal%2Falarabya_logo.png%3Fheight%3Dauto%26width%3D144%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://shls-live-ak.akamaized.net/out/v1/f5f319206ed740f9a831f2097c2ead23/index_37.m3u8",
+      "type": "news"
+  },
+  {
+      "name": "العربية Business",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2022%2FAmr%2FThumps%2Funtitled0%2FLogo_Alarabia_Business_Update%2Foriginal%2FLogo_Alarabia_Business_Update.png%3Fheight%3Dauto%26width%3D144%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://alarabiya-business-ak.akamaized.net/out/v1/126027fa2f8c4d19be4551b77ec08cbb/index.m3u8?aws.manifestfilter=video_height:144-720",
+      "type": "news"
+  },
+  {
+      "name": "الحدث",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2022%2FAmr%2FThumps%2Funtitled0%2FLogoEN_alhadath%2Foriginal%2FLogoEN_alhadath.png%3Fheight%3Dauto%26width%3D144%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1280&q=75",
+      "url": "https://hadath-prod-dub-ak.akamaized.net/out/v1/0e1a306399c346faac4226aa0858f99b/index.m3u8?aws.manifestfilter=video_height:144-720",
+      "type": "news"
+  },
+  {
+      "name": "Euronews English",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2023%2FAmrAhmed%2FFeb%2Flogo_template_En%2Foriginal%2Flogo_template_En.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://shls-live-ak.akamaized.net/out/v1/115bfcde8fa342d182ef846445cdbdcf/index.m3u8?aws.manifestfilter=video_height:144-720",
+      "type": "news"
+  },
+  {
+      "name": "Euronews French",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2023%2FAmrAhmed%2FFeb%2Flogo_template_FR%2Foriginal%2Flogo_template_FR.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://shls-live-ak.akamaized.net/out/v1/302a3ad418214d3f94460738a805b930/index.m3u8?aws.manifestfilter=video_height:144-720",
+      "type": "news"
+  },
+  {
+      "name": "MBC 1",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2FWaseem%2FStories0%2Fmbc-1%2Foriginal%2Fmbc-1.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1280&q=75",
+      "url": "https://mbc1na-prod-dub-ak.akamaized.net/out/v1/84ab37e99d6e4b16b33c6600f94f6ccb/index.m3u8?aws.manifestfilter=video_height:144-720",
+      "type": "MBC"
+  },
+  {
+      "name": "MBC 5",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2FWaseem%2FStories0%2Fmbc-5%2Foriginal%2Fmbc-5.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://mbc5-prod-dub-ak.akamaized.net/out/v1/2720564b6a4641658fdfb6884b160da2/index_2.m3u8",
+      "type": "MBC"
+  },
+  {
+      "name": "MBC 4",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2FWaseem%2FStories0%2Fmbc-4%2Foriginal%2Fmbc-4.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1280&q=75",
+      "url": "https://mbc4-prod-dub-ak.akamaized.net/out/v1/c08681f81775496ab4afa2bac7ae7638/index_2.m3u8",
+      "type": "MBC"
+  },
+  {
+      "name": "MBC Drama",
+      "image": "https://shahid.mbc.net/mediaObject/Waseem/Stories0/mbc-drama-plus/original/mbc-drama-plus.png?height=auto&width=288&croppingPoint=&version=1&type=webp",
+      "url": "https://mbcplusdrama-prod-dub-ak.akamaized.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8?aws.manifestfilter=video_height:144-720",
+      "type": "MBC"
+  },
+  {
+      "name": "SpaceToon",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2FWaseem%2FStories0%2Fspacetoon%2Foriginal%2Fspacetoon.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8?aws.manifestfilter=video_height:144-720",
+      "type": "kids"
+  },
+  {
+      "name": "MBC3",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2FWaseem%2FStories0%2Fmbc-3-logo%2Foriginal%2Fmbc-3-logo.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://mbc3-eur-prod-dub-ak.akamaized.net/out/v1/fce09dd6a967431a871efb3b8dec9f82/index_2.m3u8",
+      "type": "kids"
+  },
+  {
+      "name": "Rotana Kids",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2020%2Ftaha%2Ft2020%2Flogos-rotana-2020%2Frotana-kids-logo%2Foriginal%2Frotana-kids-logo.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://rotanakids-prod-dub-ak.akamaized.net/out/v1/df6e0eb3cdc4410b98209aafc8677cef/index.m3u8?aws.manifestfilter=video_height:144-720",
+      "type": "kids"
+  },
+  {
+      "name": "GULLI BIL ARABI",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2021%2FAbd%2FJan%2Fm6-images%2FGULLI_LOGO%2Foriginal%2FGULLI_LOGO.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://gulli-bil-arabi-prod-dub-ak.akamaized.net/out/v1/5454d215afba410c90b233f400730958/index_2.m3u8",
+      "type": "kids"
+  },
+  {
+      "name": "TIJI in French",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2021%2FAbd%2FJan%2Fm6-images%2FTigi_Logo%2Foriginal%2FTigi_Logo.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://tiji-tv-prod-dub-ak.akamaized.net/out/v1/98f46736bd8c4404b67e4b7a38cc8976/index_2.m3u8",
+      "type": "kids"
+  },
+  {
+      "name": "WWE",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2023%2FAmjad%2Fjun%2Flogo_wwe%2Foriginal%2Flogo_wwe.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://cdxaws-ak.akamaized.net/v1/channel/WWE/index_hls/3.m3u8",
+      "type": "sports"
+  },
+  {
+      "name": "القرآن الكريم",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2022%2Fjan%2FQuraan_channel_logo%2Foriginal%2FQuraan_channel_logo.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://live.kwikmotion.com/ksaquranlive/ksaquran.smil/hdntl=exp=1702672891~acl=%2fksaquranlive%2fksaquran.smil%2f*~data=hdntl~hmac=47d8b00dbb83a51d6dd063206c204eb2a61327daa71418a01dccf5543db29313/ksaquran_source_chunks_dvr.m3u8",
+      "type": "islamic"
+  },
+  {
+      "name": "السنة النبوية",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2022%2Fjan%2FSunna_channel_logo%2Foriginal%2FSunna_channel_logo.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://live.kwikmotion.com/ksasunnalive/ksasunna.smil/playlist_dvr.m3u8?hdnts=exp=1702586541~acl=/ksasunnalive/ksasunna.smil/*~hmac=0e6bf2e2347c5ef267902d2c397c6fcbb092a82c1c4af0f43f9d1ac1135e8831",
+      "type": "islamic"
+  },
 
+  {
+      "name": "beIN SPROTS NEWS",
+      "image": "https://connect.bein.com/proxy/imgdata?objectId=75&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/5645.m3u8",
 
+      "type": "bein"
+  },
+  {
+      "name": "beIN SPROTS 1",
+      "image": "https://connect.bein.com/proxy/imgdata?objectId=65&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/6.m3u8",
+      "type": "bein"
+  },
+  {
+      "name": "beIN SPROTS 2",
+      "image": "https://connect.bein.com/proxy/imgdata?objectId=66&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
+      "url": "hhttp://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/10.m3u8",
+      "type": "bein"
+  },
+  {
+      "name": "beIN SPROTS 3",
+      "image": "https://connect.bein.com/proxy/imgdata?objectId=67&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/18.m3u8",
+      "type": "bein"
+  },
+  {
+      "name": "beIN SPROTS 4",
+      "image": "https://connect.bein.com/proxy/imgdata?objectId=70&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/22.m3u8",
+      "type": "bein"
+  },
+  {
+      "name": "beIN SPROTS 5",
+      "image": "https://connect.bein.com/proxy/imgdata?objectId=68&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/26.m3u8",
+      "type": "bein"
+  },
+  {
+      "name": "beIN SPROTS 6",
+      "image": "https://connect.bein.com/proxy/imgdata?objectId=69&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/30.m3u8",
+      "type": "bein"
+  },
+  {
+      "name": "beIN SPROTS 7",
+      "image": "https://connect.bein.com/proxy/imgdata?objectId=73&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/34.m3u8",
+      "type": "bein"
+  },
+  {
+      "name": "beIN SPROTS 8",
+      "image": "https://connect.bein.com/proxy/imgdata?objectId=71&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/38.m3u8",
+      "type": "bein"
+  },
+  {
+      "name": "beIN SPROTS 9",
+      "image": "https://connect.bein.com/proxy/imgdata?objectId=58&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/42.m3u8",
+      "type": "bein"
+  },
 
-
-
-
-
-
-
-      {
-        "name": "beIN SPROTS NEWS",
-        "image": "https://connect.bein.com/proxy/imgdata?objectId=75&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-        "url": "http://x.v-iptv.com:25443/live/teleclub34/5MFKVM9Y02/9152.ts",
-        
-        "type": "bein"
-      },
-      {
-        "name": "beIN SPROTS 1",
-        "image": "https://connect.bein.com/proxy/imgdata?objectId=65&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-        "url": "https://at.live12.ir/hls2/beinsport1.m3u8",
-        "type": "bein"
-      },
-      {
-        "name": "beIN SPROTS 2",
-        "image": "https://connect.bein.com/proxy/imgdata?objectId=66&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-        "url": "https://at.live12.ir/hls2/beinsport2.m3u8",
-        "type": "bein"
-      },
-      {
-        "name": "beIN SPROTS 3",
-        "image": "https://connect.bein.com/proxy/imgdata?objectId=67&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-        "url": "https://at.live12.ir/hls2/beinsport3.m3u8",
-        "type": "bein"
-      },
-      {
-        "name": "beIN SPROTS 4",
-        "image": "https://connect.bein.com/proxy/imgdata?objectId=70&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-        "url": "https://at.live12.ir/hls2/beinsport4.m3u8",
-        "type": "bein"
-      },
-      {
-        "name": "beIN SPROTS 5",
-        "image": "https://connect.bein.com/proxy/imgdata?objectId=68&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-        "url": "https://at.live12.ir/hls2/beinsport5.m3u8",
-        "type": "bein"
-      },
-      {
-        "name": "beIN SPROTS 6",
-        "image": "https://connect.bein.com/proxy/imgdata?objectId=69&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-        "url": "https://at.live12.ir/hls2/beinsport6.m3u8",
-        "type": "bein"
-      },
-      {
-        "name": "beIN SPROTS 7",
-        "image": "https://connect.bein.com/proxy/imgdata?objectId=73&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-        "url": "https://at.live12.ir/hls2/beinsport7.m3u8",
-        "type": "bein"
-      },
-      {
-        "name": "beIN SPROTS 8",
-        "image": "https://connect.bein.com/proxy/imgdata?objectId=71&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-        "url": "https://at.live12.ir/hls2/beinsport8______________.m3u8",
-        "type": "bein"
-      },
-      {
-        "name": "beIN SPROTS 9",
-        "image": "https://connect.bein.com/proxy/imgdata?objectId=58&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-        "url": "",
-        "type": "bein"
-      }
-    ]
-  
-  
+  {
+      "name": "beIN African CUP 1 SD",
+      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/18133.m3u8",
+      "type": "afcon"
+  },
+  {
+      "name": "beIN African CUP 2 SD",
+      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/17553.m3u8",
+      "type": "afcon"
+  },
+  {
+      "name": "beIN African CUP 3 SD",
+      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/17576.m3u8",
+      "type": "afcon"
+  },
+  {
+      "name": "beIN African CUP 1 FHD",
+      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/18132.m3u8",
+      "type": "afcon"
+  },
+  {
+      "name": "beIN African CUP 2 FHD",
+      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/18134.m3u8",
+      "type": "afcon"
+  },
+  {
+      "name": "beIN African CUP 3 FHD",
+      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
+      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/18124.m3u8",
+      "type": "afcon"
+  }
+]

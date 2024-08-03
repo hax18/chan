@@ -105,99 +105,62 @@
   {
       "name": "beIN SPROTS NEWS",
       "image": "https://connect.bein.com/proxy/imgdata?objectId=75&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/5645.m3u8",
+      "url": "http://iptv.ndasat.xyz:88/live/556423228751090/556423228751090/68.m3u",
 
       "type": "bein"
   },
   {
       "name": "beIN SPROTS 1",
       "image": "https://connect.bein.com/proxy/imgdata?objectId=65&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/6.m3u8",
+      "url": "http://iptv.ndasat.xyz:88/live/556423228751090/556423228751090/5192.m3u",
       "type": "bein"
   },
   {
       "name": "beIN SPROTS 2",
       "image": "https://connect.bein.com/proxy/imgdata?objectId=66&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-      "url": "hhttp://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/10.m3u8",
+      "url": "http://iptv.ndasat.xyz:88/live/556423228751090/556423228751090/5193.m3u",
       "type": "bein"
   },
   {
       "name": "beIN SPROTS 3",
       "image": "https://connect.bein.com/proxy/imgdata?objectId=67&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/18.m3u8",
+      "url": "http://iptv.ndasat.xyz:88/live/556423228751090/556423228751090/5194.m3u",
       "type": "bein"
   },
   {
       "name": "beIN SPROTS 4",
       "image": "https://connect.bein.com/proxy/imgdata?objectId=70&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/22.m3u8",
+      "url": "http://iptv.ndasat.xyz:88/live/556423228751090/556423228751090/1603.m3u",
       "type": "bein"
   },
   {
       "name": "beIN SPROTS 5",
       "image": "https://connect.bein.com/proxy/imgdata?objectId=68&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/26.m3u8",
+      "url": "http://iptv.ndasat.xyz:88/live/556423228751090/556423228751090/1604.m3u",
       "type": "bein"
   },
   {
       "name": "beIN SPROTS 6",
       "image": "https://connect.bein.com/proxy/imgdata?objectId=69&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/30.m3u8",
+      "url": "http://iptv.ndasat.xyz:88/live/556423228751090/556423228751090/1605.m3u",
       "type": "bein"
   },
   {
       "name": "beIN SPROTS 7",
       "image": "https://connect.bein.com/proxy/imgdata?objectId=73&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/34.m3u8",
+      "url": "http://iptv.ndasat.xyz:88/live/556423228751090/556423228751090/79.m3u",
       "type": "bein"
   },
   {
       "name": "beIN SPROTS 8",
       "image": "https://connect.bein.com/proxy/imgdata?objectId=71&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/38.m3u8",
+      "url": "http://iptv.ndasat.xyz:88/live/556423228751090/556423228751090/80.m3u",
       "type": "bein"
   },
   {
       "name": "beIN SPROTS 9",
       "image": "https://connect.bein.com/proxy/imgdata?objectId=58&type=100&format_w=125&format_h=125&ratio=1&languageId=ara",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/42.m3u8",
+      "url": "http://iptv.ndasat.xyz:88/live/556423228751090/556423228751090/81.m3u",
       "type": "bein"
-  },
-
-  {
-      "name": "beIN African CUP 1 SD",
-      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
-      "url": "https://cutt.ly/5wJ6ETP8",
-      "type": "afcon"
-  },
-  {
-      "name": "beIN African CUP 2 SD",
-      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
-      "url": "https://cutt.ly/TwJ9yu9A",
-      "type": "afcon"
-  },
-  {
-      "name": "beIN African CUP 3 SD",
-      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/17576.m3u8",
-      "type": "afcon"
-  },
-  {
-      "name": "beIN African CUP 1 FHD",
-      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/18132.m3u8",
-      "type": "afcon"
-  },
-  {
-      "name": "beIN African CUP 2 FHD",
-      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/18134.m3u8",
-      "type": "afcon"
-  },
-  {
-      "name": "beIN African CUP 3 FHD",
-      "image": "https://logo.mypanel.one/logos/LogoEVDTV/BeIN/Sports/afcon2024.png",
-      "url": "http://abracadabrapro.mine.nu:25461/live/FABOR/FREEX/18124.m3u8",
-      "type": "afcon"
   }
 ]

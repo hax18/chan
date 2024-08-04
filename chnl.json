@@ -30,9 +30,9 @@
       "type": "news"
   },
   {
-      "name": "الجزائريو الأولى",
-      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2023%2FAmrAhmed%2FFeb%2Flogo_template_FR%2Foriginal%2Flogo_template_FR.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
-      "url": "https://shls-live-ak.akamaized.net/out/v1/302a3ad418214d3f94460738a805b930/index.m3u8?aws.manifestfilter=video_height:144-720",
+      "name": "الجزائرية الأولى",
+      "image": "https://www.entv.dz/wp-content/uploads/2023/09/logo-entv-tV1.png",
+      "url": "http://iptv.ndasat.xyz:88/live/556423228751090/556423228751090/427.m3u",
       "type": "algeria"
   },
   {

@@ -30,6 +30,12 @@
       "type": "news"
   },
   {
+      "name": "الجزائريو الأولى",
+      "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F2023%2FAmrAhmed%2FFeb%2Flogo_template_FR%2Foriginal%2Flogo_template_FR.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1440&q=75",
+      "url": "https://shls-live-ak.akamaized.net/out/v1/302a3ad418214d3f94460738a805b930/index.m3u8?aws.manifestfilter=video_height:144-720",
+      "type": "algeria"
+  },
+  {
       "name": "MBC 1",
       "image": "https://shahid.mbc.net/streaming-pages/_next/image?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2FWaseem%2FStories0%2Fmbc-1%2Foriginal%2Fmbc-1.png%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dwebp&w=1280&q=75",
       "url": "https://mbc1na-prod-dub-ak.akamaized.net/out/v1/84ab37e99d6e4b16b33c6600f94f6ccb/index.m3u8?aws.manifestfilter=video_height:144-720",
